@@ -113,9 +113,7 @@
   background:rgba(255,255,255,.98)!important;
   border-bottom:1px solid rgba(15,53,87,.10)!important;
   box-shadow:0 4px 18px rgba(8,38,63,.06);
-  backdrop-filter:blur(12px);
-}
-.site-header .nav a:not(.btn){color:var(--navy)!important}
+  backdrop-filter:blur(@media(min-width:981px){.site-header .nav a:not(.btn){color:var(--navy)!important}}
 .site-header .nav a:not(.btn):hover{color:var(--green)!important}
 .menu-toggle{color:var(--navy)!important}
 .site-header .brand img{
